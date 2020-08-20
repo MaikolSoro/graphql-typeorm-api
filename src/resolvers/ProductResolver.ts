@@ -20,7 +20,11 @@ export class ProductResolver {
 		return newProduct.save();
 		
 	}
-
+	@Mutation(() => Boolean)
+	async deleteProduct(@Arg("id", () => Int) id: number) {
+	  await Product.delete(id);
+	  return true;
+	}
 
 	@Query(() => [Product])
 	products() {
