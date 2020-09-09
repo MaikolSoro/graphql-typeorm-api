@@ -7,4 +7,4 @@ Typescript &amp; GraphQL | TypeORM, Type-GraphQL y ApolloServer👨‍💻🌐�
 - [TypeORM Documentation](https://typeorm.io/#/)
 - [TypeGraphQL Documentation](https://typegraphql.com/)
 - [GraphQL Documentation](https://graphql.org/).
-- [Apollo Client Documentation](https://www.apollographql.com/apollo-client)
+- [Apollo Server Documentation](https://www.apollographql.com/docs/apollo-server/)
